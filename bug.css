@@ -1,0 +1,10 @@
+The following CSS rule attempts to style the `::before` pseudo-element of an element with the class `container`, but it's missing the content property to actually add the content to the pseudo-element.  Without the `content` property, the pseudo-element won't be rendered.
+
+```css
+.container::before {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+```
