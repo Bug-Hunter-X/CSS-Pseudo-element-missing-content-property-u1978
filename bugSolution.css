@@ -1,0 +1,13 @@
+The solution adds the `content` property to the `::before` pseudo-element to add visible content.  This could be any string, a data URL for an image, or even a counter.
+
+```css
+.container::before {
+  content: ''; /* Add content property */
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+```
+
+Now the red square will appear.
